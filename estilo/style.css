@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+:root {
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: 'Merienda', cursive;
+}
+
+* {
+    font-family: var(--font1);
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: var(--font1);
+    min-height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to top, #f98569, #ffae9a);
+}
+
+header > h1 {    
+    font-variant: small-caps;
+    text-align: center;
+    color: #ffe9c8;
+    font-family: var(--font2);
+    font-weight: normal;
+    font-size: 8vw;
+    padding-top: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+}
+
+header > h3 {    
+    text-align: center;
+    color: #ffe9c8;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-weight: normal;
+    font-size: 5vw;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+}
+
+nav {
+    box-shadow: 0px 7px 7px rgb(0, 0, 0);
+    background-color: #f98569;
+    padding: 15px 10px;
+}
+
+nav > a {
+    font-weight: bold;
+    background-color: #fb9e81;
+    color: #ffe9c8;
+    margin-right: 3px;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
+}
+
+nav > a:hover {
+    background-color: rgb(255, 171, 146);
+}
+
+main {
+    background-color: #fcb799;
+    padding-bottom: 20px;
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.37);
+}
+
+section > h1 {
+    color: #fff2df;
+    background-image: linear-gradient(to right, #f7947c, transparent);
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+}
+
+section > p {
+    padding-top: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+footer {
+    padding: 7px;
+    text-align: center;
+    color: white;
+    background-color: #f98569;
+}
+
+footer > p > a {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
