@@ -69,6 +69,10 @@ nav > a:hover {
 
 main {
     background-color: #fcb799;
+    background-image: url('../imagens/background-main.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-bottom: 20px;
     box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
