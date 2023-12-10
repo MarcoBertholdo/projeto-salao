@@ -102,10 +102,11 @@ section > p {
     line-height: 1.5em;
 }
 
-section > img {
+section > picture  {
     padding-top: 20px;
     display: block;
-    margin: auto;
+    text-align: center;
+    width: 100%;
 }
 
 footer {
