@@ -112,34 +112,25 @@ footer {
     padding: 7px;
     text-align: center;
     color: white;
-    background-color: #f98569;
+    background-image: linear-gradient(to right, #f98569, #ffae9a);
 }
 
-footer > p > a {
+footer > p {
+    font-size: 1.5em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
     color: white;
     font-weight: bold;
-    text-decoration: none;
 }
 
-footer > p > a:hover {
-    text-decoration: underline;
-}
+                            /* SOCIAL */
 
-/* SOCIAL */
-
-
-.social {
-    display: block;
-    text-align: center;
-}
-
-.social > a > img {
-    background-color: rgba(192, 192, 192, 0.76);
-    box-shadow: 2px 4px 6px black;
-    width: 10%;
-    margin: 30px 10px 10px 0px;
+footer > a > img {
+    background-color: #ffe9c8;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.308);
+    width: 4vw;
+    margin: 10px 10px 10px 0px;
     border-radius: 50%;
+    transition-duration: 0.5s;
 }
 
 #whatsapp:hover {
