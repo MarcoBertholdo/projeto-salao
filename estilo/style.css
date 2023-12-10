@@ -30,7 +30,7 @@ header > h1 {
     font-family: var(--font2);
     font-weight: normal;
     font-size: 8vw;
-    padding-top: 30px;
+    padding-top: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
 }
 
@@ -39,13 +39,12 @@ header > h3 {
     color: #ffe9c8;
     font-family: 'Mrs Saint Delafield', cursive;
     font-weight: normal;
-    font-size: 5vw;
-    padding-bottom: 30px;
+    font-size: 6vw;
+    padding-bottom: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.295);
 }
 
 nav {
-    box-shadow: 0px 7px 7px rgb(0, 0, 0);
     background-color: #f98569;
     padding: 15px 10px;
 }
