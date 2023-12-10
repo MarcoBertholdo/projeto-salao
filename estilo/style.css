@@ -139,6 +139,7 @@ footer > p > a:hover {
     box-shadow: 2px 4px 6px black;
     width: 10%;
     margin: 30px 10px 10px 0px;
+    border-radius: 50%;
 }
 
 #whatsapp:hover {
