@@ -125,3 +125,39 @@ footer > p > a {
 footer > p > a:hover {
     text-decoration: underline;
 }
+
+/* SOCIAL */
+
+
+.social {
+    display: block;
+    text-align: center;
+}
+
+.social > a > img {
+    margin: 30px 10px 10px 0px;
+}
+
+.social > a > img:hover {
+    border-radius: 10px;
+}
+
+#whatsapp:hover {
+    background-color: #25D366;
+    box-shadow: 0px 0px 22px #25D366;
+}
+
+#instagram:hover {
+    background-color: #C82258;
+    box-shadow: 0px 0px 22px #C82258;
+}
+
+#facebook:hover {
+    background-color: #1873EB;
+    box-shadow: 0px 0px 22px #1873EB;
+}
+
+#youtube:hover {
+    background-color: #FF0000;
+    box-shadow: 0px 0px 22px #FF0000;
+}
