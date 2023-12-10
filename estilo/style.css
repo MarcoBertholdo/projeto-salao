@@ -128,7 +128,7 @@ footer > a > img {
     background-color: #ffe9c8;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.308);
     width: 4.5%;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5px;
     border-radius: 50%;
     transition-duration: 0.5s;
 }
